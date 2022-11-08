@@ -1,4 +1,4 @@
-package com.test;
+package com.Optimisedprogram;
 
 import java.util.Arrays;
 import java.util.stream.Collectors;

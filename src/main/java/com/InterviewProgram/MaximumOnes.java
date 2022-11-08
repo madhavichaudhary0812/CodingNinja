@@ -2,6 +2,8 @@ package com.InterviewProgram;
 
 public class MaximumOnes {
 
+    //source link - https://www.youtube.com/watch?v=1iSJhfje97I
+    //source link -https://www.geeksforgeeks.org/find-the-row-with-maximum-number-1s/#:~:text=Given%20a%20boolean%202D%20array,the%20maximum%20number%20of%201s.&text=A%20simple%20method%20is%20to,the%20row%20with%20maximum%201s.
     static int R = 4, C = 4;
     // Function that returns index of row
     // with maximum number of 1s.

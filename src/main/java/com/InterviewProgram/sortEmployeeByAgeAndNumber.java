@@ -5,6 +5,7 @@ import java.util.Collections;
 import java.util.Comparator;
 
 public class sortEmployeeByAgeAndNumber {
+
     public static void main(String []args)
     {
         ArrayList<Employee1> al = new ArrayList<>();

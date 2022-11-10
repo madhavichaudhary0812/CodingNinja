@@ -50,7 +50,12 @@ public class mergeSort {
                 j++;
                 k++;
             }
+
         }
+
+/*      System.out.print("input array value befor another while loop------->  ");
+        displayArray(input);
+        System.out.println("-------");*/
 
         while(i< part1.length)
         {
@@ -58,6 +63,9 @@ public class mergeSort {
             i++;
             k++;
         }
+/*      System.out.print("input array value after 1st while loop------->  ");
+        displayArray(input);
+        System.out.println("-------");*/
 
         while(j< part2.length)
         {
@@ -66,6 +74,19 @@ public class mergeSort {
             k++;
         }
 
+/*      System.out.print("input array value after 2nd another while loop------->  ");
+        displayArray(input);
+        System.out.println("-------");*/
+
+    }
+
+    public static void displayArray(int arr[])
+    {
+        for (int i = 0; i < arr.length; i++) {
+
+            System.out.print(arr[i]);
+
+        }
     }
 
 

@@ -32,13 +32,6 @@ public class IsAnagram {
 
         for (Character chr : s2.toCharArray()) {
             map.put(chr, map.getOrDefault(chr, 0) - 1);
-/*            if(map.containsKey(chr))
-            {
-                map.put(chr, map.get(chr)-1);
-            }else
-            {
-                return false;
-            }*/
 
         }
 
@@ -49,11 +42,6 @@ public class IsAnagram {
                 return false;
             }
         }
-/*
-    if(map.isEmpty()!=false)
-        {
-            return false;
-        }*/
 
         return true;
     }

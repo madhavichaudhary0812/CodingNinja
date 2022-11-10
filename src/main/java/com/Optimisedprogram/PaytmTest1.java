@@ -12,42 +12,32 @@ public class PaytmTest1 {
          remove space from front and back
          Keep single space
      */
-    public static String reverseStringNotWord(String str)
-    {
+    public static String reverseStringNotWord(String str) {
 
 
-        if(str == null)
-        {
+        if (str == null) {
             System.out.println("------> Given String is null <------");
             return null;
-        }else if(str.length()<1)
-        {
+        } else if (str.length() < 1) {
             System.out.println("------> Given String is empty <------");
             return null;
         }
 
-
-
-        String []arr = str.split(" ");
+        String[] arr = str.split(" ");
 
         StringBuilder reverseString = new StringBuilder("");
 
-        for(int i =arr.length-1 ; i>=0; i-- )
-        {
-            if(arr[i].length()==0)
-            continue;
-            reverseString = reverseString.append(" "+arr[i]);
-
+        for (int i = arr.length - 1; i >= 0; i--) {
+            if (arr[i].length() == 0)
+                continue;
+            reverseString = reverseString.append(" " + arr[i]);
 
         }
-       // System.out.println("------> reverse String for <------"+reverseString.toString().trim());
-       return reverseString.toString().trim();
+        return reverseString.toString().trim();
     }
 
 
-
-    public static void main(String []args)
-    {
+    public static void main(String[] args) {
         System.out.println("***** WAP to reverse the string but not words *****");
         String str = "My Name    is Madhavi";
 
@@ -59,7 +49,6 @@ public class PaytmTest1 {
 
         System.out.println(reverseStringNotWord(str));
 
-        //reverse(str);
         reverseStringNotWord(str1);
         reverseStringNotWord(str2);
         reverseStringNotWord(str3);

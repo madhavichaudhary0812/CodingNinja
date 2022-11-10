@@ -12,7 +12,6 @@ public class Palindrome {
 
     public static boolean palindromeCheck(String str) {
 
-        //boolean flag;
         StringBuilder revStr = new StringBuilder("");
 
         for (int i = str.length() - 1; i >= 0; i--) {
@@ -21,26 +20,23 @@ public class Palindrome {
         if (str.equals(revStr.toString())) {
             return true;
         }
-           return false;
+        return false;
 
     }
 
 
-    // by Mid point
     public static boolean isPalindrome(String str) {
 
         int n = str.length() - 1;
         int i = 0;
 
-        while (i < n/2) {
+        while (i < n / 2) {
             if (str.charAt(i) != str.charAt(n)) {
                 return false;
             }
             i++;
             n--;
-
         }
-
         return true;
     }
 

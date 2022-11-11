@@ -5,8 +5,9 @@ public class getSubStringAsPalindrom {
     /* Program - WAP to get longest palindrom substring from given string
     *
     * Source Link 1- https://youtu.be/AKIHWGumagI
+    * Source - https://leetcode.com/submissions/detail/841598658/
     *
-    * Approaches - Brute force
+    * Approaches - Brute force 0
     * Approaches - Expand from center
     *
     * Edge cases - if String have even numbers of characters;

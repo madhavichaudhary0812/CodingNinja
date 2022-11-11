@@ -12,7 +12,7 @@ Source link 2 - https://stackoverflow.com/questions/37935170/how-to-merge-3-sort
     if element same in two arrays
     if element same in three arrays
 
-
+Company - Acko
 Approaches -  Two way to resolve it
 1- Merge last array with the resultant of first two arrays
 2- Merge three array together with multiple if & else condition

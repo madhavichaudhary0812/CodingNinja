@@ -2,7 +2,7 @@ package com.Optimisedprogram;
 
 public class BubbleSort {
 
-    /* Bubble Sort - 
+    /* Bubble Sort - DSA problem
     *
     *
     * */

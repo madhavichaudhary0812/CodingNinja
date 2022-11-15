@@ -4,22 +4,9 @@ import java.util.Arrays;
 
 public class FindTwoValueNearToTarget {
 
-    /*
+    /* WAP to get two element from given array which sum closest to the given target
   /*Arr[] ={12,5,6,2,13,11,10,4} x = 25
-{2,4,5,6,10,11,12,13}
-num1=0,num2=0, diff=Interger.MaxValue(), i=0,j=arr.length-1
-while(i<j){
-currentdiff=Abs(Arr[i]+arr[j]- x)
-if(currentdiff<diff){
-diff=currentDiff;
-num1=arr[i];
-num2=[arr[j]
-
-}
-if(Arr[i]+arr[j]<x)
-I++;
-Else
-j--
+      {2,4,5,6,10,11,12,13}
 
 }  */
 

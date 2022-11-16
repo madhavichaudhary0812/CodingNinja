@@ -6,6 +6,11 @@ import java.util.Map;
 import java.util.Set;
 
 public class lastRepeatingCharacter {
+    /* WAP to get last repeating character in given String
+        String str = "tripatthi";
+
+    * Approach - will used LinkedHashmap as this present characters in order we enter
+    * */
 
     public static void lastRepeatingChar(String str) {
         char[] ch = str.toCharArray();

@@ -3,7 +3,7 @@ package com.Optimisedprogram;
 import java.util.Arrays;
 import java.util.stream.Collectors;
 
-public class ReverseStringNotWord {
+public class ReverseWordsNotString {
 
     /*WAP to Reverse Words in a String like below :
     input - "My Name is Madhavi"

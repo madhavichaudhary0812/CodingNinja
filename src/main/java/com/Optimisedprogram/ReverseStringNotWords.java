@@ -1,6 +1,6 @@
 package com.Optimisedprogram;
 
-public class PaytmTest1 {
+public class ReverseStringNotWords {
 
     /*WAP to Reverse String not word like below :
     input - "My Name is Madhavi"

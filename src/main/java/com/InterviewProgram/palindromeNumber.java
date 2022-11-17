@@ -2,17 +2,17 @@ package com.InterviewProgram;
 
 public class palindromeNumber {
 
-    public static boolean isPalindrome(int str)
+    public static boolean isPalindrome(int n)
     {
 
         int num,sum=0,temp;
-        temp=str;
+        temp=n;
 
-        while(str>0)
+        while(n>0)
         {
-            num = str%10; //454 - 4 , 5, 4
+            num = n%10; //454 - 4 , 5, 4
             sum = (sum*10) + num; // - 0+4 , 45, 454
-            str = str/10; //45, 4,
+            n = n/10; //45, 4,
         }
 
         if(temp==sum)
@@ -27,8 +27,8 @@ public class palindromeNumber {
 
     public static void main(String []args)
     {
-        int str =  454;
-        boolean status = isPalindrome(str);
+        int num =  454;
+        boolean status = isPalindrome(num);
         System.out.println("Given Number is Palindrome :- " +status);
     }
 }

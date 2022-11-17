@@ -55,7 +55,7 @@ public class LargestPrimeFactor {
 
     public static void main(String[] args) {
         int n = 66;
-        long h = 670;
+        long h = 6704767;
         System.out.println(largestPF(n));
         System.out.println(largestPrimeFactor(h));
     }

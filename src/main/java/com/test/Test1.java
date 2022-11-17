@@ -1,6 +1,6 @@
 package com.test;
 
-public class Freshwork {
+public class Test1 {
 
     /*
     * Example 1:

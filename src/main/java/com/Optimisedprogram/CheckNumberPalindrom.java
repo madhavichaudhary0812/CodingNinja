@@ -2,7 +2,11 @@ package com.Optimisedprogram;
 
 public class CheckNumberPalindrom {
 
-    public static boolean checkPalindromNumber(int num)
+    /* WAP to check given number is Palindrome
+    *
+    * */
+
+    public static boolean checkPalindromeNumber(int num)
     {
       int rev = 0;
       int rem =0;
@@ -28,7 +32,7 @@ public class CheckNumberPalindrom {
     public static void main(String[] args) {
         int n = 2413142;
         int n1 = 241314;
-        System.out.println(checkPalindromNumber(n));
-        System.out.println(checkPalindromNumber(n1));
+        System.out.println(checkPalindromeNumber(n));
+        System.out.println(checkPalindromeNumber(n1));
     }
 }

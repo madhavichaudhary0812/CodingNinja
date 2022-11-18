@@ -92,7 +92,7 @@ public class mergeSort {
 
     public static void main(String []args)
     {
-        int [] input = {4,5,9,12,19,2,8,13};
+        int [] input = {4,5,9,12,12,2,12,13};
         mergeSort(input);
         for(int i=0; i<input.length;i++)
         {

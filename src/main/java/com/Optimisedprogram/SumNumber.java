@@ -2,6 +2,13 @@ package com.Optimisedprogram;
 
 public class SumNumber {
 
+    /* WAP to Finding sum of digits of a number until sum becomes single digit
+    *  Input : 1234
+    *  Output : 1
+    * Input : 5674
+    * Output : 4
+    * */
+
     public static void sum(int num) {
         int rem = 0;
         while (num != 0 || rem > 9) {

@@ -5,7 +5,10 @@ public class MaxProductSubArray {
     /* Maximum Product Subarray
     * Company - Make My trip
     * Source - https://leetcode.com/problems/maximum-product-subarray/discuss/1608862/JAVA-or-3-Solutions-or-Detailed-Explanation-Using-Image
-    *
+    * https://leetcode.com/problems/maximum-product-subarray/description/
+    * https://leetcode.com/problems/maximum-product-subarray/solutions/183483/JavaC++Python-it-can-be-more-simple/
+    * https://www.youtube.com/watch?v=cNLHESv_XPc
+    * https://www.scaler.com/topics/maximum-product-subarray/
     * */
 
     public static long maxProduct(int []arr)

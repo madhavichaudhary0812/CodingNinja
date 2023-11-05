@@ -10,18 +10,16 @@ public class ReplaceSecondOccurenceOfCharacter {
         int count =0;
         char arr[] = s.toCharArray();
         for (int i = 0; i < arr.length; i++) {
-            if(arr[i] == 'o' && count ==1)
+            if(arr[i] == 'o')
             {
-                arr[i] = '$';
+               if(count==1)
+               {
+                   arr[i] = '$';
+               }
                 count++;
             }
-
             str = str.append(arr[i]);
-
         }
-
-
-
         return str.toString();
     }
 
@@ -32,16 +30,17 @@ public class ReplaceSecondOccurenceOfCharacter {
                 System.out.println(c + " is only once in a String");
                 return s;
             }
+
             return s.substring(0, (m + n + 1)) + "$" + s.substring(n + m + 2);
+
         }
-
-
-
 
         public static void main(String[] args) {
         String s = "tomorrow";
-        System.out.println(replacOccurence(s));
+        String d = "today";
+       // System.out.println(replacOccurence(s));
         System.out.println(replace2ndOccurrence(s,'o'));
+       // System.out.println(replace2ndOccurrence(d,'o'));
 
 
 

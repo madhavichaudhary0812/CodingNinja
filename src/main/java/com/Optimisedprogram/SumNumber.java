@@ -18,7 +18,7 @@ public class SumNumber {
 
             }
             rem = rem + num % 10;
-            num = num / 10;
+            num = num/10;
 
         }
 
@@ -27,7 +27,8 @@ public class SumNumber {
 
 
     public static void main(String[] args) {
-        int num = 1235;
+        int num = 345621;
+                //1235;
         sum(num);
 
 

@@ -19,6 +19,9 @@ public class removeDuplicateString {
             {
                 map.put(word, 1);
             }
+
+               // map.put(word, map.getOrDefault(word,0)+1);
+
         }
 
         System.out.print("String after removing duplicate String -: ");
@@ -26,7 +29,7 @@ public class removeDuplicateString {
         {
           if(set.getValue()==1)
           {
-              String s1 = set.getKey().toString();
+              String s1 = set.getKey();
               System.out.print(s1 +" ");
           }
         }
@@ -34,7 +37,6 @@ public class removeDuplicateString {
 
     public static void main(String []args) {
         String str = "my name is madhavi this is good name";
-
         removeDuplicate(str);
     }
 }

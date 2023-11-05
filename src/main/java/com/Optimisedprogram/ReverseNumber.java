@@ -40,8 +40,8 @@ public class ReverseNumber {
         int n2 = 00123;//to handle this case use string builder
         int n3 = -4454234;
         System.out.println("Reverse number for this "+n +" is = "+reverseNumber(n));
-        System.out.println("Reverse number for this "+n1 +" is = "+reverseNumber(n1));
-        System.out.println("Reverse number for this "+n2 +" is = "+reverseNumber(n2));
+        System.out.println("Reverse number for this "+n1 +" is = "+reverseSpecialNumber(n1));
+        System.out.println("Reverse number for this "+n2 +" is = "+reverseSpecialNumber(n2));
         System.out.println("Reverse number for this "+n3 +" is = "+reverseNumber(n3));
     }
 }

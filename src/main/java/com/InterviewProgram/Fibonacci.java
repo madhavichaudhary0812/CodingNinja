@@ -43,8 +43,6 @@ public class Fibonacci {
             n2 = n3;
             count++;
         }
-
-
     }
     public static void main(String[] args) {
 

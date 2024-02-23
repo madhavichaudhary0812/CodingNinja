@@ -9,7 +9,6 @@ public class Employee implements Comparable<Employee> {
     {
         this.Name = Name;
         this.Age = Age;
-
     }
 
     @Override

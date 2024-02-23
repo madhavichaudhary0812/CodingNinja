@@ -27,6 +27,8 @@ public class RotateArray {
         int arr[]={2,4,6,7,9,8,3};
         int n =2;
 
+        System.out.println(Arrays.toString(arr));
+        System.out.println("-------------------------------");
         System.out.println(Arrays.toString(rotateArrayByIndex(arr,n)));
     }
 }
